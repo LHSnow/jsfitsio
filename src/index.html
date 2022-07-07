@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSFITSIO</title>
+  </head>
+  <body>
+    <script src="../dist/jsfitsio.js"></script>
+    <script type="module">
+      jsFITSio().then((fitsio) => {
+        console.log(fitsio);
+
+        console.log(`Max FITS memory: ${fitsio.maxFITSMemory()} bytes`);
+      });
+    </script>
+  </body>
+</html>

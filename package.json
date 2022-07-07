@@ -1,0 +1,31 @@
+{
+  "name": "jsfitsio",
+  "version": "0.1.0",
+  "description": "Interact with FITS images using JS/WASM",
+  "main": "./dist/jsfitsio.js",
+  "scripts": {
+    "clean": "emmake make clean",
+    "build": "emmake make all",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LHSnow/jsfitsio.git"
+  },
+  "keywords": [
+    "astronomy",
+    "image",
+    "fits",
+    "analysis",
+    "cfitsio"
+  ],
+  "author": "Lars-Henrik Snow",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/LHSnow/jsfitsio/issues"
+  },
+  "homepage": "https://github.com/LHSnow/jsfitsio#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
